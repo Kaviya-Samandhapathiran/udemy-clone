@@ -9,4 +9,4 @@ Key Features:
 * Footer: A footer with links to various pages and other relevant information, just like the actual Udemy website.
 * Modern CSS Techniques: Utilized CSS Flexbox and Grid for layout management and Media Queries for responsiveness.
 
-You can visit the site here: 
+You can visit the site here: https://kaviya-samandhapathiran.github.io/udemy-clone/
