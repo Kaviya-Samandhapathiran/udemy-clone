@@ -45,6 +45,10 @@ body {
     gap: 20px;
 }
 
+.navbar_sec4 {
+    display: none;
+}
+
 .navbar_sec3__desc {
     position: relative;
     cursor: pointer;
@@ -106,7 +110,7 @@ body {
     background-color: white;
     position: absolute;
     top: 10px;
-    padding: 20px;
+    padding: 2%;
     margin: 60px;
     animation-name: offer;
     animation-duration: 2s;
@@ -134,7 +138,9 @@ body {
 }
 
 .course-card {
-    width: 300px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
 }
 
 .course-card img {
@@ -193,4 +199,33 @@ body {
 
 .footer__one p {
     margin: 20px;
+}
+
+@media screen and (max-width:800px) {
+    body {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .course-card {
+        flex-basis: 40%;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .navbar_sec2,
+    .navbar_sec3 {
+        display: none;
+    }
+
+    .navbar_sec4{
+        display: block;
+    }
+
+    .front-image__offer{
+        top: -20px;
+    }
 }
