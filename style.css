@@ -45,12 +45,12 @@ body {
     gap: 20px;
 }
 
-.navbar_sec3__desc{
+.navbar_sec3__desc {
     position: relative;
     cursor: pointer;
 }
 
-.navbar_sec3__popup{
+.navbar_sec3__popup {
     position: absolute;
     top: 30px;
     border: solid black 1px;
@@ -61,7 +61,7 @@ body {
     display: none;
 }
 
-.navbar_sec3__desc:hover .navbar_sec3__popup{
+.navbar_sec3__desc:hover .navbar_sec3__popup {
     display: block;
 }
 
@@ -85,14 +85,14 @@ body {
     border: solid #B65BF6 1px;
 }
 
-.categories p:hover{
+.categories p:hover {
     transition: 1s;
     background-color: transparent;
     color: #B65BF6;
     border: solid #B65BF6 1px;
 }
 
-.front-image{
+.front-image {
     position: relative;
 }
 
@@ -113,11 +113,11 @@ body {
 }
 
 @keyframes offer {
-    0%{
+    0% {
         transform: scale(0);
     }
-    100%
-    {
+
+    100% {
         transform: scale(1);
     }
 }
